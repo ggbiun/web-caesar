@@ -28,6 +28,7 @@ form="""
         </style>
     </head>
     <body>
+        <h1 style="background-color:powderblue;"><center>Gaspare's Decode Box</center></h1>
         <form action="/encrypt" method="post">
             <div>
                 <label for="rot">Rotate by:</label>
@@ -36,7 +37,7 @@ form="""
             </div>
             <textarea type="text" name="text">{1}</textarea>
             <br>
-            <input type="submit">
+            <input type="submit" value="Code/Decode">
         </form>
     </body>
 </html>
